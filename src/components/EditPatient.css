@@ -1,0 +1,26 @@
+.button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.edit-btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  button.cancel-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
